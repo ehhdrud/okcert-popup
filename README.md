@@ -11,11 +11,11 @@ OKCert3 Java 1.5 서비스 모듈을 기반으로 구성했습니다.
 ## 설치하기
 
 ```
-$ npm install okcert
+$ npm install okcert-popup
 ```
 
 ```
-$ yarn add okcert
+$ yarn add okcert-popup
 ```
 
 `okcert`는 [`yarn berry (PnP - Plug'n'Play)`](https://github.com/yarnpkg/berry)를 지원하고 있습니다.
@@ -60,4 +60,6 @@ instance.requestPhoneAuth({
 
 > - 원저작자: seungminio
 > - 출처: https://github.com/seungminio/okcert.git
+>
+> 위 코드를 기반으로 팝업 방식으로 커스텀하였습니다.
 
