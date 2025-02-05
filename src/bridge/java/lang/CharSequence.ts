@@ -1,6 +1,6 @@
-import { importClass, JavaClass } from "java-bridge";
-import { Integer as java_lang_Integer } from "./Integer";
-import { IntStream as java_util_stream_IntStream } from "./../util/stream/IntStream";
+import { importClass, JavaClass } from 'java-bridge';
+import { Integer as java_lang_Integer } from './Integer';
+import { IntStream as java_util_stream_IntStream } from './../util/stream/IntStream';
 
 /**
  * This class just defines types, you should import CharSequence instead of this.
@@ -8,72 +8,72 @@ import { IntStream as java_util_stream_IntStream } from "./../util/stream/IntStr
  * You should probably not edit this.
  */
 export declare class CharSequenceClass extends JavaClass {
-    // ================== Method toString ==================
-    /**
-     * @return original return type: 'java.lang.String'
-     */
-    public toString(): Promise<string>;
-    // ================== Method toString ==================
-    /**
-     * @return original return type: 'java.lang.String'
-     */
-    public toStringSync(): string;
-    // ================== Method length ==================
-    /**
-     * @return original return type: 'int'
-     */
-    public length(): Promise<number>;
-    // ================== Method length ==================
-    /**
-     * @return original return type: 'int'
-     */
-    public lengthSync(): number;
-    // ================== Method charAt ==================
-    /**
-     * @param var0 original type: 'int'
-     * @return original return type: 'char'
-     */
-    public charAt(var0: java_lang_Integer | number): Promise<string | null>;
-    // ================== Method charAt ==================
-    /**
-     * @param var0 original type: 'int'
-     * @return original return type: 'char'
-     */
-    public charAtSync(var0: java_lang_Integer | number): string | null;
-    // ================== Method subSequence ==================
-    /**
-     * @param var0 original type: 'int'
-     * @param var1 original type: 'int'
-     * @return original return type: 'java.lang.CharSequence'
-     */
-    public subSequence(var0: java_lang_Integer | number, var1: java_lang_Integer | number): Promise<CharSequence | null>;
-    // ================== Method subSequence ==================
-    /**
-     * @param var0 original type: 'int'
-     * @param var1 original type: 'int'
-     * @return original return type: 'java.lang.CharSequence'
-     */
-    public subSequenceSync(var0: java_lang_Integer | number, var1: java_lang_Integer | number): CharSequence | null;
-    // ================== Method chars ==================
-    /**
-     * @return original return type: 'java.util.stream.IntStream'
-     */
-    public chars(): Promise<java_util_stream_IntStream | null>;
-    // ================== Method chars ==================
-    /**
-     * @return original return type: 'java.util.stream.IntStream'
-     */
-    public charsSync(): java_util_stream_IntStream | null;
-    // ================== Method codePoints ==================
-    /**
-     * @return original return type: 'java.util.stream.IntStream'
-     */
-    public codePoints(): Promise<java_util_stream_IntStream | null>;
-    // ================== Method codePoints ==================
-    /**
-     * @return original return type: 'java.util.stream.IntStream'
-     */
-    public codePointsSync(): java_util_stream_IntStream | null;
+  // ================== Method toString ==================
+  /**
+   * @return original return type: 'java.lang.String'
+   */
+
+  // ================== Method toString ==================
+  /**
+   * @return original return type: 'java.lang.String'
+   */
+  public toStringSync(): string;
+  // ================== Method length ==================
+  /**
+   * @return original return type: 'int'
+   */
+  public length(): Promise<number>;
+  // ================== Method length ==================
+  /**
+   * @return original return type: 'int'
+   */
+  public lengthSync(): number;
+  // ================== Method charAt ==================
+  /**
+   * @param var0 original type: 'int'
+   * @return original return type: 'char'
+   */
+  public charAt(var0: java_lang_Integer | number): Promise<string | null>;
+  // ================== Method charAt ==================
+  /**
+   * @param var0 original type: 'int'
+   * @return original return type: 'char'
+   */
+  public charAtSync(var0: java_lang_Integer | number): string | null;
+  // ================== Method subSequence ==================
+  /**
+   * @param var0 original type: 'int'
+   * @param var1 original type: 'int'
+   * @return original return type: 'java.lang.CharSequence'
+   */
+  public subSequence(var0: java_lang_Integer | number, var1: java_lang_Integer | number): Promise<CharSequence | null>;
+  // ================== Method subSequence ==================
+  /**
+   * @param var0 original type: 'int'
+   * @param var1 original type: 'int'
+   * @return original return type: 'java.lang.CharSequence'
+   */
+  public subSequenceSync(var0: java_lang_Integer | number, var1: java_lang_Integer | number): CharSequence | null;
+  // ================== Method chars ==================
+  /**
+   * @return original return type: 'java.util.stream.IntStream'
+   */
+  public chars(): Promise<java_util_stream_IntStream | null>;
+  // ================== Method chars ==================
+  /**
+   * @return original return type: 'java.util.stream.IntStream'
+   */
+  public charsSync(): java_util_stream_IntStream | null;
+  // ================== Method codePoints ==================
+  /**
+   * @return original return type: 'java.util.stream.IntStream'
+   */
+  public codePoints(): Promise<java_util_stream_IntStream | null>;
+  // ================== Method codePoints ==================
+  /**
+   * @return original return type: 'java.util.stream.IntStream'
+   */
+  public codePointsSync(): java_util_stream_IntStream | null;
 }
 
 /**
@@ -85,13 +85,13 @@ export declare class CharSequenceClass extends JavaClass {
  * This was generated by java-bridge.
  * You should probably not edit this.
  */
-export class CharSequence extends importClass<typeof CharSequenceClass>("java.lang.CharSequence") {
-    /**
-     * Private constructor to prevent instantiation
-     * as this is either an abstract class or an interface
-     */
-    private constructor() {
-        super();
-    }
+export class CharSequence extends importClass<typeof CharSequenceClass>('java.lang.CharSequence') {
+  /**
+   * Private constructor to prevent instantiation
+   * as this is either an abstract class or an interface
+   */
+  private constructor() {
+    super();
+  }
 }
 export default CharSequence;

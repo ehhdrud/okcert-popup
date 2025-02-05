@@ -1,7 +1,7 @@
-import { importClass, JavaClass } from "java-bridge";
-import { Temporal as java_time_temporal_Temporal } from "./Temporal";
-import { Duration as java_time_Duration } from "./../Duration";
-import { Long as java_lang_Long } from "./../../lang/Long";
+import { importClass, JavaClass } from 'java-bridge';
+import { Temporal as java_time_temporal_Temporal } from './Temporal';
+import { Duration as java_time_Duration } from './../Duration';
+import { Long as java_lang_Long } from './../../lang/Long';
 
 /**
  * This class just defines types, you should import TemporalUnit instead of this.
@@ -9,96 +9,102 @@ import { Long as java_lang_Long } from "./../../lang/Long";
  * You should probably not edit this.
  */
 export declare class TemporalUnitClass extends JavaClass {
-    // ================== Method isSupportedBy ==================
-    /**
-     * @param var0 original type: 'java.time.temporal.Temporal'
-     * @return original return type: 'boolean'
-     */
-    public isSupportedBy(var0: java_time_temporal_Temporal | null): Promise<boolean>;
-    // ================== Method isSupportedBy ==================
-    /**
-     * @param var0 original type: 'java.time.temporal.Temporal'
-     * @return original return type: 'boolean'
-     */
-    public isSupportedBySync(var0: java_time_temporal_Temporal | null): boolean;
-    // ================== Method isTimeBased ==================
-    /**
-     * @return original return type: 'boolean'
-     */
-    public isTimeBased(): Promise<boolean>;
-    // ================== Method isTimeBased ==================
-    /**
-     * @return original return type: 'boolean'
-     */
-    public isTimeBasedSync(): boolean;
-    // ================== Method getDuration ==================
-    /**
-     * @return original return type: 'java.time.Duration'
-     */
-    public getDuration(): Promise<java_time_Duration | null>;
-    // ================== Method getDuration ==================
-    /**
-     * @return original return type: 'java.time.Duration'
-     */
-    public getDurationSync(): java_time_Duration | null;
-    // ================== Method addTo ==================
-    /**
-     * @param var0 original type: 'java.time.temporal.Temporal'
-     * @param var1 original type: 'long'
-     * @return original return type: 'java.time.temporal.Temporal'
-     */
-    public addTo(var0: java_time_temporal_Temporal | null, var1: java_lang_Long | bigint | number): Promise<java_time_temporal_Temporal | null>;
-    // ================== Method addTo ==================
-    /**
-     * @param var0 original type: 'java.time.temporal.Temporal'
-     * @param var1 original type: 'long'
-     * @return original return type: 'java.time.temporal.Temporal'
-     */
-    public addToSync(var0: java_time_temporal_Temporal | null, var1: java_lang_Long | bigint | number): java_time_temporal_Temporal | null;
-    // ================== Method between ==================
-    /**
-     * @param var0 original type: 'java.time.temporal.Temporal'
-     * @param var1 original type: 'java.time.temporal.Temporal'
-     * @return original return type: 'long'
-     */
-    public between(var0: java_time_temporal_Temporal | null, var1: java_time_temporal_Temporal | null): Promise<number>;
-    // ================== Method between ==================
-    /**
-     * @param var0 original type: 'java.time.temporal.Temporal'
-     * @param var1 original type: 'java.time.temporal.Temporal'
-     * @return original return type: 'long'
-     */
-    public betweenSync(var0: java_time_temporal_Temporal | null, var1: java_time_temporal_Temporal | null): number;
-    // ================== Method isDateBased ==================
-    /**
-     * @return original return type: 'boolean'
-     */
-    public isDateBased(): Promise<boolean>;
-    // ================== Method isDateBased ==================
-    /**
-     * @return original return type: 'boolean'
-     */
-    public isDateBasedSync(): boolean;
-    // ================== Method isDurationEstimated ==================
-    /**
-     * @return original return type: 'boolean'
-     */
-    public isDurationEstimated(): Promise<boolean>;
-    // ================== Method isDurationEstimated ==================
-    /**
-     * @return original return type: 'boolean'
-     */
-    public isDurationEstimatedSync(): boolean;
-    // ================== Method toString ==================
-    /**
-     * @return original return type: 'java.lang.String'
-     */
-    public toString(): Promise<string>;
-    // ================== Method toString ==================
-    /**
-     * @return original return type: 'java.lang.String'
-     */
-    public toStringSync(): string;
+  // ================== Method isSupportedBy ==================
+  /**
+   * @param var0 original type: 'java.time.temporal.Temporal'
+   * @return original return type: 'boolean'
+   */
+  public isSupportedBy(var0: java_time_temporal_Temporal | null): Promise<boolean>;
+  // ================== Method isSupportedBy ==================
+  /**
+   * @param var0 original type: 'java.time.temporal.Temporal'
+   * @return original return type: 'boolean'
+   */
+  public isSupportedBySync(var0: java_time_temporal_Temporal | null): boolean;
+  // ================== Method isTimeBased ==================
+  /**
+   * @return original return type: 'boolean'
+   */
+  public isTimeBased(): Promise<boolean>;
+  // ================== Method isTimeBased ==================
+  /**
+   * @return original return type: 'boolean'
+   */
+  public isTimeBasedSync(): boolean;
+  // ================== Method getDuration ==================
+  /**
+   * @return original return type: 'java.time.Duration'
+   */
+  public getDuration(): Promise<java_time_Duration | null>;
+  // ================== Method getDuration ==================
+  /**
+   * @return original return type: 'java.time.Duration'
+   */
+  public getDurationSync(): java_time_Duration | null;
+  // ================== Method addTo ==================
+  /**
+   * @param var0 original type: 'java.time.temporal.Temporal'
+   * @param var1 original type: 'long'
+   * @return original return type: 'java.time.temporal.Temporal'
+   */
+  public addTo(
+    var0: java_time_temporal_Temporal | null,
+    var1: java_lang_Long | bigint | number,
+  ): Promise<java_time_temporal_Temporal | null>;
+  // ================== Method addTo ==================
+  /**
+   * @param var0 original type: 'java.time.temporal.Temporal'
+   * @param var1 original type: 'long'
+   * @return original return type: 'java.time.temporal.Temporal'
+   */
+  public addToSync(
+    var0: java_time_temporal_Temporal | null,
+    var1: java_lang_Long | bigint | number,
+  ): java_time_temporal_Temporal | null;
+  // ================== Method between ==================
+  /**
+   * @param var0 original type: 'java.time.temporal.Temporal'
+   * @param var1 original type: 'java.time.temporal.Temporal'
+   * @return original return type: 'long'
+   */
+  public between(var0: java_time_temporal_Temporal | null, var1: java_time_temporal_Temporal | null): Promise<number>;
+  // ================== Method between ==================
+  /**
+   * @param var0 original type: 'java.time.temporal.Temporal'
+   * @param var1 original type: 'java.time.temporal.Temporal'
+   * @return original return type: 'long'
+   */
+  public betweenSync(var0: java_time_temporal_Temporal | null, var1: java_time_temporal_Temporal | null): number;
+  // ================== Method isDateBased ==================
+  /**
+   * @return original return type: 'boolean'
+   */
+  public isDateBased(): Promise<boolean>;
+  // ================== Method isDateBased ==================
+  /**
+   * @return original return type: 'boolean'
+   */
+  public isDateBasedSync(): boolean;
+  // ================== Method isDurationEstimated ==================
+  /**
+   * @return original return type: 'boolean'
+   */
+  public isDurationEstimated(): Promise<boolean>;
+  // ================== Method isDurationEstimated ==================
+  /**
+   * @return original return type: 'boolean'
+   */
+  public isDurationEstimatedSync(): boolean;
+  // ================== Method toString ==================
+  /**
+   * @return original return type: 'java.lang.String'
+   */
+
+  // ================== Method toString ==================
+  /**
+   * @return original return type: 'java.lang.String'
+   */
+  public toStringSync(): string;
 }
 
 /**
@@ -110,13 +116,13 @@ export declare class TemporalUnitClass extends JavaClass {
  * This was generated by java-bridge.
  * You should probably not edit this.
  */
-export class TemporalUnit extends importClass<typeof TemporalUnitClass>("java.time.temporal.TemporalUnit") {
-    /**
-     * Private constructor to prevent instantiation
-     * as this is either an abstract class or an interface
-     */
-    private constructor() {
-        super();
-    }
+export class TemporalUnit extends importClass<typeof TemporalUnitClass>('java.time.temporal.TemporalUnit') {
+  /**
+   * Private constructor to prevent instantiation
+   * as this is either an abstract class or an interface
+   */
+  private constructor() {
+    super();
+  }
 }
 export default TemporalUnit;

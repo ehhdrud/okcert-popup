@@ -1,9 +1,9 @@
-import { importClass, JavaClass, BasicOrJavaType } from "java-bridge";
-import { UserPrincipal as java_nio_file_attribute_UserPrincipal } from "./UserPrincipal";
-import { GroupPrincipal as java_nio_file_attribute_GroupPrincipal } from "./GroupPrincipal";
-import { Long as java_lang_Long } from "./../../../lang/Long";
-import { Integer as java_lang_Integer } from "./../../../lang/Integer";
-import { Class as java_lang_Class } from "./../../../lang/Class";
+import { importClass, JavaClass, BasicOrJavaType } from 'java-bridge';
+import { UserPrincipal as java_nio_file_attribute_UserPrincipal } from './UserPrincipal';
+import { GroupPrincipal as java_nio_file_attribute_GroupPrincipal } from './GroupPrincipal';
+import { Long as java_lang_Long } from './../../../lang/Long';
+import { Integer as java_lang_Integer } from './../../../lang/Integer';
+import { Class as java_lang_Class } from './../../../lang/Class';
 
 /**
  * This class just defines types, you should import UserPrincipalLookupService instead of this.
@@ -11,124 +11,124 @@ import { Class as java_lang_Class } from "./../../../lang/Class";
  * You should probably not edit this.
  */
 export declare class UserPrincipalLookupServiceClass extends JavaClass {
-    // ================== Method lookupPrincipalByName ==================
-    /**
-     * @param var0 original type: 'java.lang.String'
-     * @return original return type: 'java.nio.file.attribute.UserPrincipal'
-     */
-    public lookupPrincipalByName(var0: string | null): Promise<java_nio_file_attribute_UserPrincipal | null>;
-    // ================== Method lookupPrincipalByName ==================
-    /**
-     * @param var0 original type: 'java.lang.String'
-     * @return original return type: 'java.nio.file.attribute.UserPrincipal'
-     */
-    public lookupPrincipalByNameSync(var0: string | null): java_nio_file_attribute_UserPrincipal | null;
-    // ================== Method lookupPrincipalByGroupName ==================
-    /**
-     * @param var0 original type: 'java.lang.String'
-     * @return original return type: 'java.nio.file.attribute.GroupPrincipal'
-     */
-    public lookupPrincipalByGroupName(var0: string | null): Promise<java_nio_file_attribute_GroupPrincipal | null>;
-    // ================== Method lookupPrincipalByGroupName ==================
-    /**
-     * @param var0 original type: 'java.lang.String'
-     * @return original return type: 'java.nio.file.attribute.GroupPrincipal'
-     */
-    public lookupPrincipalByGroupNameSync(var0: string | null): java_nio_file_attribute_GroupPrincipal | null;
-    // ================== Method wait ==================
-    /**
-     * @param var0 original type: 'long'
-     * @param var1 original type: 'int'
-     * @return original return type: 'void'
-     */
-    public wait(var0: java_lang_Long | bigint | number, var1: java_lang_Integer | number): Promise<void>;
-    // ================== Method wait ==================
-    /**
-     * @param var0 original type: 'long'
-     * @param var1 original type: 'int'
-     * @return original return type: 'void'
-     */
-    public waitSync(var0: java_lang_Long | bigint | number, var1: java_lang_Integer | number): void;
-    /**
-     * @param var0 original type: 'long'
-     * @return original return type: 'void'
-     */
-    public wait(var0: java_lang_Long | bigint | number): Promise<void>;
-    /**
-     * @param var0 original type: 'long'
-     * @return original return type: 'void'
-     */
-    public waitSync(var0: java_lang_Long | bigint | number): void;
-    /**
-     * @return original return type: 'void'
-     */
-    public wait(): Promise<void>;
-    /**
-     * @return original return type: 'void'
-     */
-    public waitSync(): void;
-    // ================== Method equals ==================
-    /**
-     * @param var0 original type: 'java.lang.Object'
-     * @return original return type: 'boolean'
-     */
-    public equals(var0: BasicOrJavaType | null): Promise<boolean>;
-    // ================== Method equals ==================
-    /**
-     * @param var0 original type: 'java.lang.Object'
-     * @return original return type: 'boolean'
-     */
-    public equalsSync(var0: BasicOrJavaType | null): boolean;
-    // ================== Method toString ==================
-    /**
-     * @return original return type: 'java.lang.String'
-     */
-    public toString(): Promise<string>;
-    // ================== Method toString ==================
-    /**
-     * @return original return type: 'java.lang.String'
-     */
-    public toStringSync(): string;
-    // ================== Method hashCode ==================
-    /**
-     * @return original return type: 'int'
-     */
-    public hashCode(): Promise<number>;
-    // ================== Method hashCode ==================
-    /**
-     * @return original return type: 'int'
-     */
-    public hashCodeSync(): number;
-    // ================== Method getClass ==================
-    /**
-     * @return original return type: 'java.lang.Class'
-     */
-    public getClass(): Promise<java_lang_Class>;
-    // ================== Method getClass ==================
-    /**
-     * @return original return type: 'java.lang.Class'
-     */
-    public getClassSync(): java_lang_Class;
-    // ================== Method notify ==================
-    /**
-     * @return original return type: 'void'
-     */
-    public notify(): Promise<void>;
-    // ================== Method notify ==================
-    /**
-     * @return original return type: 'void'
-     */
-    public notifySync(): void;
-    // ================== Method notifyAll ==================
-    /**
-     * @return original return type: 'void'
-     */
-    public notifyAll(): Promise<void>;
-    // ================== Method notifyAll ==================
-    /**
-     * @return original return type: 'void'
-     */
-    public notifyAllSync(): void;
+  // ================== Method lookupPrincipalByName ==================
+  /**
+   * @param var0 original type: 'java.lang.String'
+   * @return original return type: 'java.nio.file.attribute.UserPrincipal'
+   */
+  public lookupPrincipalByName(var0: string | null): Promise<java_nio_file_attribute_UserPrincipal | null>;
+  // ================== Method lookupPrincipalByName ==================
+  /**
+   * @param var0 original type: 'java.lang.String'
+   * @return original return type: 'java.nio.file.attribute.UserPrincipal'
+   */
+  public lookupPrincipalByNameSync(var0: string | null): java_nio_file_attribute_UserPrincipal | null;
+  // ================== Method lookupPrincipalByGroupName ==================
+  /**
+   * @param var0 original type: 'java.lang.String'
+   * @return original return type: 'java.nio.file.attribute.GroupPrincipal'
+   */
+  public lookupPrincipalByGroupName(var0: string | null): Promise<java_nio_file_attribute_GroupPrincipal | null>;
+  // ================== Method lookupPrincipalByGroupName ==================
+  /**
+   * @param var0 original type: 'java.lang.String'
+   * @return original return type: 'java.nio.file.attribute.GroupPrincipal'
+   */
+  public lookupPrincipalByGroupNameSync(var0: string | null): java_nio_file_attribute_GroupPrincipal | null;
+  // ================== Method wait ==================
+  /**
+   * @param var0 original type: 'long'
+   * @param var1 original type: 'int'
+   * @return original return type: 'void'
+   */
+  public wait(var0: java_lang_Long | bigint | number, var1: java_lang_Integer | number): Promise<void>;
+  // ================== Method wait ==================
+  /**
+   * @param var0 original type: 'long'
+   * @param var1 original type: 'int'
+   * @return original return type: 'void'
+   */
+  public waitSync(var0: java_lang_Long | bigint | number, var1: java_lang_Integer | number): void;
+  /**
+   * @param var0 original type: 'long'
+   * @return original return type: 'void'
+   */
+  public wait(var0: java_lang_Long | bigint | number): Promise<void>;
+  /**
+   * @param var0 original type: 'long'
+   * @return original return type: 'void'
+   */
+  public waitSync(var0: java_lang_Long | bigint | number): void;
+  /**
+   * @return original return type: 'void'
+   */
+  public wait(): Promise<void>;
+  /**
+   * @return original return type: 'void'
+   */
+  public waitSync(): void;
+  // ================== Method equals ==================
+  /**
+   * @param var0 original type: 'java.lang.Object'
+   * @return original return type: 'boolean'
+   */
+  public equals(var0: BasicOrJavaType | null): Promise<boolean>;
+  // ================== Method equals ==================
+  /**
+   * @param var0 original type: 'java.lang.Object'
+   * @return original return type: 'boolean'
+   */
+  public equalsSync(var0: BasicOrJavaType | null): boolean;
+  // ================== Method toString ==================
+  /**
+   * @return original return type: 'java.lang.String'
+   */
+
+  // ================== Method toString ==================
+  /**
+   * @return original return type: 'java.lang.String'
+   */
+  public toStringSync(): string;
+  // ================== Method hashCode ==================
+  /**
+   * @return original return type: 'int'
+   */
+  public hashCode(): Promise<number>;
+  // ================== Method hashCode ==================
+  /**
+   * @return original return type: 'int'
+   */
+  public hashCodeSync(): number;
+  // ================== Method getClass ==================
+  /**
+   * @return original return type: 'java.lang.Class'
+   */
+  public getClass(): Promise<java_lang_Class>;
+  // ================== Method getClass ==================
+  /**
+   * @return original return type: 'java.lang.Class'
+   */
+  public getClassSync(): java_lang_Class;
+  // ================== Method notify ==================
+  /**
+   * @return original return type: 'void'
+   */
+  public notify(): Promise<void>;
+  // ================== Method notify ==================
+  /**
+   * @return original return type: 'void'
+   */
+  public notifySync(): void;
+  // ================== Method notifyAll ==================
+  /**
+   * @return original return type: 'void'
+   */
+  public notifyAll(): Promise<void>;
+  // ================== Method notifyAll ==================
+  /**
+   * @return original return type: 'void'
+   */
+  public notifyAllSync(): void;
 }
 
 /**
@@ -140,13 +140,15 @@ export declare class UserPrincipalLookupServiceClass extends JavaClass {
  * This was generated by java-bridge.
  * You should probably not edit this.
  */
-export class UserPrincipalLookupService extends importClass<typeof UserPrincipalLookupServiceClass>("java.nio.file.attribute.UserPrincipalLookupService") {
-    /**
-     * Private constructor to prevent instantiation
-     * as this is either an abstract class or an interface
-     */
-    private constructor() {
-        super();
-    }
+export class UserPrincipalLookupService extends importClass<typeof UserPrincipalLookupServiceClass>(
+  'java.nio.file.attribute.UserPrincipalLookupService',
+) {
+  /**
+   * Private constructor to prevent instantiation
+   * as this is either an abstract class or an interface
+   */
+  private constructor() {
+    super();
+  }
 }
 export default UserPrincipalLookupService;
