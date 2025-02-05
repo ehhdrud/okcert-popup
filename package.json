@@ -8,8 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seungminio/okcert.git",
-    "baseUrl": "https://github.com/seungminio/okcert"
+    "url": "git+https://github.com/ehhdrud/okcert-popup.git",
+    "baseUrl": "https://github.com/ehhdrud/okcert-popup"
   },
   "main": "dist/main.js",
   "scripts": {
