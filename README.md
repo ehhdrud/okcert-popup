@@ -53,7 +53,7 @@ const instance = new OKCert({
 instance.requestPhoneAuth({
   return_url: 'example.com',
   site_name: 'example',
-  site_url: 'example.com', // 팝업 호출 URL
+  site_url: 'example.com',
   rqst_caus_cd: '00',
 });
 ```
